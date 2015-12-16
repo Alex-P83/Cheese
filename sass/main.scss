@@ -1,0 +1,18 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+// Import Normalize
+@import "normalize";
+
+
+.container{
+	min-width: 970px;
+	max-width: 970px;
+	margin:0 auto;
+}
